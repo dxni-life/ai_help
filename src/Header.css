@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #ffeccc;
+  padding: 20px 0;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.taskbar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: #ffeccc;
+}
+
+.taskbar a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  margin: 0 10px;
+  transition: background-color 0.3s, color 0.3s;
+  border: 2px solid white; /* Add white border */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.taskbar a:hover {
+  color: black;
+  background-color: #ccdfff; /* Change background color on hover */
+}
+
+@media (max-width: 768px) {
+  .taskbar {
+    flex-direction: column;
+  }
+
+  .taskbar a {
+    margin: 5px 0;
+  }
+}

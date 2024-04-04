@@ -1,0 +1,9 @@
+
+  
+  /* Footer Styles */
+footer {
+    background-color: #ffeccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Pushes the footer to the bottom of the viewport */
+  }
